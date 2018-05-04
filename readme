@@ -1,0 +1,2 @@
+grails create-app --profile angular -features mongodb,json-views todo
+grails create-domain-resource todo

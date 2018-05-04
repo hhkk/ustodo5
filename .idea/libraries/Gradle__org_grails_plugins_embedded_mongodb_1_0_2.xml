@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:embedded-mongodb:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/embedded-mongodb/1.0.2/b900d3f2cda6349afeb8167bf83e8b2b050e2105/embedded-mongodb-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/embedded-mongodb/1.0.2/1eb8b0d3ab6c31e8106533af564fbedc2106c387/embedded-mongodb-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
