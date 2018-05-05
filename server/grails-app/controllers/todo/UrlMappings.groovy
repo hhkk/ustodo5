@@ -16,5 +16,6 @@ class UrlMappings {
 
         "/todos"(resources:"todo")
         "/pendingTodos"(controller: 'todo', action: 'pending')
+        "/findall"(controller: 'todo', action: 'findall')
     }
 }
