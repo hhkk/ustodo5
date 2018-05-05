@@ -9,4 +9,12 @@ class TodoController extends RestfulController {
     TodoController() {
         super(Todo)
     }
+
+    // had to remove //@Resource in Todo.groovy for this to work 
+    def pending() {
+
+        System.out.println("in TodoController pending");
+
+        respond Todo.findAllByDone(false), view: 'index'
+    }
 }
