@@ -9,12 +9,14 @@ import { NavComponent } from './nav/nav.component';
 import { NavService } from './nav/nav.service';
 import { AppRoutingModule } from "./app-routing.module";
 import { HttpClientModule } from "@angular/common/http";
+import { TodohkComponent } from './todohk/todohk.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    IndexComponent
+    IndexComponent,
+    TodohkComponent
   ],
   imports: [
     BrowserModule,
