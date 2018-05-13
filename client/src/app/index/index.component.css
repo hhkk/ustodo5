@@ -8,7 +8,7 @@ a {
 }
 
 #controllers a {
-    text-decoration: underline;
+    text-decoration: underline overline;
 }
 
 #controllers a:hover {

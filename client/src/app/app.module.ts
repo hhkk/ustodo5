@@ -25,7 +25,7 @@ import { TodohkComponent } from './todohk/todohk.component';
     AppRoutingModule,
     NgbModule.forRoot()
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}, NavService],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}, NavService], // hbk see navservice here
   bootstrap: [AppComponent]
 })
 export class AppModule { }

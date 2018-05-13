@@ -5,9 +5,8 @@ import {TodohkComponent} from "./todohk/todohk.component";
 
 const routes: Routes = [
   {path: '', redirectTo: 'index', pathMatch: 'full'},
-  {path: 'index', component: IndexComponent}
-//  ,
-//  {path: 'todohkhk', component: TodohkComponent} // added by hk
+  {path: 'index', component: IndexComponent},
+  {path: 'todohkhk', component: TodohkComponent} // added by hbk
 ];
 
 @NgModule({
