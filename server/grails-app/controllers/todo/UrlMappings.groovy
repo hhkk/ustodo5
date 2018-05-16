@@ -14,7 +14,8 @@ class UrlMappings {
         "500"(view: '/error')
         "404"(view: '/notFound')
 
-        "/todos"(resources:"todo")
+        "/todokons"(resources:"todo")
+        "/tasks"(resources:"todo")
         "/pendingTodos"(controller: 'todo', action: 'pending')
         "/findall"(controller: 'todo', action: 'findall')
     }

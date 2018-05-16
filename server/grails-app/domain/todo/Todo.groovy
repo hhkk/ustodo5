@@ -12,5 +12,9 @@ class Todo {
     String description
     boolean done
 
+    public Todo() {
+        System.out.println("in todo constructor");
+    }
+
 
 }

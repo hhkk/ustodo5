@@ -12,6 +12,7 @@ import { environment } from '../../environments/environment';
 export class IndexComponent implements OnInit {
 
     controllers: Array<any>;
+    controllerstest: Array<any>;
     utds: Array<any>;
     serverUrl: string;
 
@@ -32,27 +33,8 @@ export class IndexComponent implements OnInit {
                     return 0;
                 }
             });
-            this.controllers = [{"name":"todo.ApplicationControllerhk","logicalPropertyName":"applicationhk"},{"name":"todo.TodoControllerhk","logicalPropertyName":"todohk"}];
-            var hk = JSON.stringify(this.controllers);
-            console.log("hk done index.component.ts ngOnInit hk:" + hk);
-
-        });
-
-        // utds
-        this.serverUrl = environment.serverUrl;  // read by angular for html render
-        this.navService.getNavData().subscribe(applicationData => {
-            console.log("in subscribehbk");
-            this.controllers = applicationData.controllers.sort((a: any, b: any) => {
-                if (a.name < b.name) {
-                    return -1;
-                } else if (a.name > b.name) {
-                    return 1;
-                } else {
-                    return 0;
-                }
-            });
-            this.controllers = [{"name":"todo.ApplicationControllerhk","logicalPropertyName":"applicationhk"},{"name":"todo.TodoControllerhk","logicalPropertyName":"todohk"}];
-            var hk = JSON.stringify(this.controllers);
+            this.controllerstest = [{"name":"todo.ApplicationControllerhk","logicalPropertyName":"applicationhk"},{"name":"todo.TodoControllerhk","logicalPropertyName":"todohk"}];
+            var hk = JSON.stringify(this.controllerstest);
             console.log("hk done index.component.ts ngOnInit hk:" + hk);
 
         });
