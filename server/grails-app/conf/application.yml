@@ -72,6 +72,8 @@ grails:
         host: localhost
         port: 27017
         databaseName: "hkdbname"
+
+        # http://gorm.grails.org/latest/mongodb/manual/
         #username: ""
         #password: ""
         #databaseName: "mydatabase"

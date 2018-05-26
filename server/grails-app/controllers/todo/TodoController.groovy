@@ -4,6 +4,7 @@ package todo
 import grails.rest.*
 import grails.converters.*
 
+// as compared with //@Resource(uri in Todo.groovy
 class TodoController extends RestfulController {
 //class TodoController {
     static responseFormats = ['json', 'xml']
@@ -20,9 +21,9 @@ class TodoController extends RestfulController {
         System.out.println("in TodoController pending");
         System.out.println("in TodoController pending");
 
-        respond Todo.findAllByDone(true), view: 'index'
+        respond Todo.findAllByDone(false), view: 'index'
     }
-    // had to remove //@Resource in Todo.groovy for this to work but TodoController extends a rest thingy so ...
+    // had to remove //@Resource in Todo.groovy for this to work but TodoController extends a rest thingy so ...  7
 
     // ~/utd/180501CAngSecAngular/todo>curl -i 0:8080/findall
     def findall() {
